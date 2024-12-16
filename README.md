@@ -2,7 +2,10 @@
 
 # Chatbot
 
-Chatbot is a project written in Elixir that integrates with the Ollama server to process questions and generate responses using language models.
+Chatbot is a project written in Elixir that integrates with the Ollama server to process questions and generate responses using large language models.
+<img width="547" alt="POC2" src="https://github.com/user-attachments/assets/4f234010-3bd3-4c02-a6eb-1e5bb675c0b6" />
+
+
 
 ## Requirements
 
@@ -18,6 +21,7 @@ Before running the project, make sure that:
    Fetch all Elixir dependencies by running:
    ```bash
    mix deps.get
+   mix escript.build
    ```
 
 3. **You have the required models available on Ollama**  
